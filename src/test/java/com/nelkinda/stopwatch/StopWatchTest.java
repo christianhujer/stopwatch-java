@@ -14,7 +14,6 @@ class StopWatchTest {
         final Duration remainingTime = duration.minus(ofMillis(minimumMilliseconds));
         assertFalse(remainingTime.isNegative());
         assertFalse(remainingTime.isZero());
-        System.err.println(remainingTime);
     }
 
     private void snooze(final int milliseconds) {

@@ -1,4 +1,4 @@
-package com.nelkinda.timefunction;
+package com.nelkinda.stopwatch;
 
 import org.junit.jupiter.api.Test;
 

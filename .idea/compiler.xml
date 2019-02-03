@@ -6,11 +6,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="timefunction-java" />
+        <module name="stopwatch-java" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="timefunction-java" target="1.8" />
+      <module name="stopwatch-java" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

@@ -5,8 +5,15 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.nelkinda</groupId>
-    <artifactId>timefunction-java</artifactId>
+    <artifactId>stopwatch-java</artifactId>
     <version>0.0.1-SNAPSHOT</version>
+
+    <properties>
+        <project.sourceEncoding>UTF-8</project.sourceEncoding>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+    </properties>
+
     <dependencies>
         <dependency>
             <groupId>org.junit.jupiter</groupId>
@@ -15,10 +22,4 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
-
-    <properties>
-        <project.sourceEncoding>UTF-8</project.sourceEncoding>
-        <maven.compiler.source>1.8</maven.compiler.source>
-        <maven.compiler.target>1.8</maven.compiler.target>
-    </properties>
 </project>
